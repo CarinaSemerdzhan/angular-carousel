@@ -1,0 +1,25 @@
+<div class="rs-carousel-wrapper_outer">	
+	<div class="rs-carousel-wrapper">
+		<div class="rs-carousel_item" ng-repeat="item in rsData">
+			<div class="rs-carousel_item-image" style="background-image: url('{{item.path}}')">
+			</div>
+			<div class="rs-carousel_item-description" ng-class="{'active': item.active}">
+				<div class="rs-carousel_item--title">
+					{{item.title}}
+					<span class="rs-carousel_item_fullscreen"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="rs-carousel-arrow">
+		<div class="rs-carousel-arrow_left" ng-click="goToPrev()"></div>
+		<div class="rs-carousel-arrow_right" ng-click="goToNext()"></div>
+	</div>
+	<div class="rs-carousel-indicator">
+		<span class="rs-carousel-indicator_item" 
+			ng-repeat="i in getNumber(rsData.length) track by $index"
+			ng-class="{'active': rsData[$index].active}"
+			ng-click="goToSlide($index)">
+		</span>
+	</div>
+</div>

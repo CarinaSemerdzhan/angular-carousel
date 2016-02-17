@@ -1,0 +1,10 @@
+@import 'normalize';
+@import 'colors';
+@import 'mixins';
+@import 'carousel';
+@import 'animation';
+
+body {
+	color: $dark-blue;
+    font: 13px/1.6 Verdana, Arial, sans-serif;
+}

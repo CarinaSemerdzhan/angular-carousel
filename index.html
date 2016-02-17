@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="angular-carousel">
+
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta charset="UTF-8">
+    <link href='dist/main.css' rel='stylesheet' type='text/css'>
+    <title>Angular carousel</title>
+</head>
+
+<body ng-controller="angular-carousel.mainController as main">
+    <div class="screen-content">
+        <section class="angular-carousel" ng-if="main.init">
+            <rs-carousel
+                rs-data="main.items"
+            ></rs-carousel>
+        </section>
+    </div>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+     <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="dist/angular-carousel.js"></script>
+</body>
+
+</html>

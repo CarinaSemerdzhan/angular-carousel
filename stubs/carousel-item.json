@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+	  "path": "demo/img/home1.jpg",
+	  "title": "236 besteminningen",
+	  "link": {
+	  	"title": "Begin met zoeken",
+	  	"path": "/"
+	  }
+	},
+	{
+	  "path": "demo/img/home2.jpg",
+	  "title": "236 besteminningen",
+	  "link": {
+	  	"title": "Begin met zoeken",
+	  	"path": "/"
+	  }
+	},
+	{
+	  "path": "demo/img/home3.jpg",
+	  "title": "236 besteminningen",
+	  "link": {
+	  	"title": "Begin met zoeken",
+	  	"path": "/"
+	  }
+	},
+	{
+	  "path": "demo/img/home4.jpg",
+	  "title": "236 besteminningen",
+	  "link": {
+	  	"title": "Begin met zoeken",
+	  	"path": "/"
+	  }
+	},
+	{
+	  "path": "demo/img/home5.jpg",
+	  "title": "236 besteminningen",
+	  "link": {
+	  	"title": "Begin met zoeken",
+	  	"path": "/"
+	  }
+	}
+  ]
+}
