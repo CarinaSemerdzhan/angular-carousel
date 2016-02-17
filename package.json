@@ -35,5 +35,8 @@
     "load-grunt-tasks": "~0.3.0",
     "requirejs": "~2.1.11"
   },
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "homepage": "https://github.com/CarinaSemerdzhan/angular-carousel#readme"
 }
